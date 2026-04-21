@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{프로젝트명} · 조민기 포트폴리오</title>
+  <meta name="description" content="{프로젝트명} 상세 — 담당 업무와 기여 내용" />
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+
+  <!-- ============ TOP NAV ============ -->
+  <nav class="detail-nav">
+    <div class="container">
+      <a href="../index.html" class="back-link">← 포트폴리오로 돌아가기</a>
+    </div>
+  </nav>
+
+  <!-- ============ HERO ============ -->
+  <header class="detail-hero">
+    <div class="container">
+      <p class="detail-hero__eyebrow">SHIPPING PROJECT</p>
+      <h1 class="detail-hero__title">{프로젝트명}</h1>
+      <p class="detail-hero__platforms">Android · iOS · Windows</p>
+      <p class="detail-hero__period">2021.12 ~ 2026.03</p>
+    </div>
+  </header>
+
+  <!-- ============ OVERVIEW ============ -->
+  <section class="section">
+    <div class="container container--narrow">
+      <p class="section__eyebrow">OVERVIEW</p>
+      <h2 class="section__title">프로젝트 개요</h2>
+      <p class="detail__body">
+        {프로젝트 개요 — 어떤 게임인지, 장르, 규모, 팀 구성 등 3~5문장으로 요약.
+        공식 소개 문구를 그대로 써도 되고, 본인 시각으로 재기술해도 됩니다.}
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ MY CONTRIBUTION ============ -->
+  <section class="section section--alt">
+    <div class="container container--narrow">
+      <p class="section__eyebrow">MY WORK</p>
+      <h2 class="section__title">담당 업무</h2>
+
+      <!-- 담당 시스템 1 -->
+      <article class="contribution">
+        <h3 class="contribution__title">{담당 시스템 1}</h3>
+        <p class="contribution__body">
+          {어떤 시스템이었는지 · 해결한 문제 · 본인이 맡은 범위를 2~4문장으로 서술.
+          "팀 전체"와 "본인 기여"를 구분해서 적는 것이 중요.}
+        </p>
+        <ul class="contribution__highlights">
+          <li>{구체적 기여 1 — 기술 · 수치 · 결과 중 최소 하나 포함}</li>
+          <li>{구체적 기여 2}</li>
+          <li>{구체적 기여 3}</li>
+        </ul>
+      </article>
+
+      <!-- 담당 시스템 2 (필요 없으면 삭제) -->
+      <article class="contribution">
+        <h3 class="contribution__title">{담당 시스템 2}</h3>
+        <p class="contribution__body">
+          {담당 내용 설명}
+        </p>
+        <ul class="contribution__highlights">
+          <li>{구체적 기여 1}</li>
+          <li>{구체적 기여 2}</li>
+        </ul>
+      </article>
+
+      <!-- 담당 시스템 3 (필요하면 추가) -->
+      <article class="contribution">
+        <h3 class="contribution__title">{담당 시스템 3}</h3>
+        <p class="contribution__body">
+          {담당 내용 설명}
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ TECH STACK ============ -->
+  <section class="section">
+    <div class="container container--narrow">
+      <p class="section__eyebrow">TECH STACK</p>
+      <h2 class="section__title">기술 스택</h2>
+
+      <div class="tech-grid">
+        <div class="tech-category">
+          <h3>엔진</h3>
+          <ul>
+            <li>{예: Unreal Engine 5.3}</li>
+          </ul>
+        </div>
+        <div class="tech-category">
+          <h3>언어</h3>
+          <ul>
+            <li>{예: C++ · Blueprint}</li>
+          </ul>
+        </div>
+        <div class="tech-category">
+          <h3>미들웨어</h3>
+          <ul>
+            <li>{예: Photon · FMOD}</li>
+          </ul>
+        </div>
+        <div class="tech-category">
+          <h3>협업 툴</h3>
+          <ul>
+            <li>{예: Perforce · Jira}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ OUTCOMES ============ -->
+  <section class="section section--alt">
+    <div class="container container--narrow">
+      <p class="section__eyebrow">OUTCOMES</p>
+      <h2 class="section__title">주요 성과</h2>
+
+      <ul class="outcomes">
+        <li>
+          <strong>{성과 제목 1 — 수치가 있으면 수치로}</strong>
+          <p>{배경 · 원인 · 본인 기여를 구체적으로.}</p>
+        </li>
+        <li>
+          <strong>{성과 제목 2}</strong>
+          <p>{설명}</p>
+        </li>
+        <li>
+          <strong>{성과 제목 3 (선택)}</strong>
+          <p>{설명}</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ LEARNINGS ============ -->
+  <section class="section">
+    <div class="container container--narrow">
+      <p class="section__eyebrow">RETROSPECTIVE</p>
+      <h2 class="section__title">회고</h2>
+      <p class="detail__body">
+        {프로젝트를 통해 배운 점 · 도전했던 부분 · 다음에 같은 문제를 만나면 어떻게 풀지.
+        면접관이 가장 흥미롭게 읽는 섹션이므로 솔직하고 구체적으로 작성.}
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ BACK LINK ============ -->
+  <div class="detail-footer">
+    <div class="container">
+      <a href="../index.html" class="back-link">← 포트폴리오로 돌아가기</a>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span>© 2026 gee03143</span>
+      <span>Built with HTML · CSS · Hosted on GitHub Pages</span>
+    </div>
+  </footer>
+
+</body>
+</html>

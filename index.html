@@ -15,7 +15,7 @@
     <div class="container hero__inner">
       <p class="hero__eyebrow">PORTFOLIO · 2026</p>
       <h1 class="hero__name">
-        <span class="hero__name-placeholder">{이름}</span>
+        <span class="hero__name-placeholder">조민기</span>
       </h1>
       <p class="hero__tagline">
         상용 수준의 게임 시스템을 직접 설계·구현하는<br />
@@ -88,19 +88,25 @@
 
       <!-- Company Work Placeholder -->
       <article class="project project--placeholder">
-        <div class="project__media project__media--muted">
-          <span class="project__media-label">
-            🔒 회사 작업물<br />
-            <small>사내 허가 확인 후 업로드 예정</small>
-          </span>
-        </div>
+        <div class="project__media project__media--video">
+  		<a class="project__media project__media--video-link"
+   href="https://www.youtube.com/watch?v=AEYJzaQQRc8"
+   target="_blank"
+   rel="noopener"
+   aria-label="게임 티저 YouTube에서 보기">
+  <img src="https://img.youtube.com/vi/AEYJzaQQRc8/hqdefault.jpg"
+       alt="게임 티저 썸네일" />
+  <span class="project__media-play" aria-hidden="true">▶</span>
+</a>
+	</div>
 
         <div class="project__body">
           <p class="project__badge">SHIPPING</p>
           <div class="project__head">
-            <h3 class="project__title">{회사 프로젝트명}</h3>
-            <p class="project__subtitle">{출시 플랫폼 · 담당 기간}</p>
-          </div>
+            <h3 class="project__title">다키스트데이즈</h3>
+            <p class="project__subtitle">Android · iOS · Windows</p>
+	    <p class="project__period">2021.12 ~ 2026.03</p>          
+	  </div>
 
           <p class="project__desc">
             {담당한 시스템과 기여 내용을 2~3줄로 기술. 출시된 프로젝트의 공식 스크린샷과
@@ -114,12 +120,19 @@
           </ul>
 
           <ul class="project__tags">
-            <li>{사용 기술}</li>
-            <li>{담당 파트}</li>
+            <li>UE 4.27</li>
+	    <li>Blueprints</li>
+            <li>Jenkins</li>
+	    <li>BuildPatchTool</li>
           </ul>
 
           <div class="project__links">
-            <span class="btn btn--disabled">준비 중</span>
+		<a class="btn btn--primary" href="https://store.steampowered.com/app/1548520/_/" target="_blank" rel="noopener">
+              		Steam 스토어 →
+            	</a>
+            	<a class="btn btn--ghost" href="projects/shipping-project.html" target="_blank" rel="noopener">
+                  	상세 문서 →
+                </a>
           </div>
         </div>
       </article>
@@ -192,13 +205,9 @@
         </li>
         <li>
           <span class="contact__key">Email</span>
-          <a class="contact__value" href="mailto:{이메일@example.com}">
-            {이메일@example.com}
+          <a class="contact__value" href="mailto:gee03143@naver.com">
+            gee03143@naver.com
           </a>
-        </li>
-        <li>
-          <span class="contact__key">Blog</span>
-          <span class="contact__value contact__value--muted">{블로그 URL 플레이스홀더}</span>
         </li>
       </ul>
 
