@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>gee03143 · Unreal Engine Systems Programmer</title>
+  <meta name="description" content="Unreal Engine · C++ 게임 시스템 프로그래머 포트폴리오" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============ HERO ============ -->
+  <header class="hero">
+    <div class="hero__accent"></div>
+    <div class="container hero__inner">
+      <p class="hero__eyebrow">PORTFOLIO · 2026</p>
+      <h1 class="hero__name">
+        <span class="hero__name-placeholder">{이름}</span>
+      </h1>
+      <p class="hero__tagline">
+        상용 수준의 게임 시스템을 직접 설계·구현하는<br />
+        <strong>Unreal Engine · C++ 프로그래머</strong>
+      </p>
+
+      <ul class="hero__tags">
+        <li>Unreal Engine 5</li>
+        <li>C++</li>
+        <li>Multiplayer</li>
+        <li>Gameplay Systems</li>
+        <li>Niagara FX</li>
+        <li>Automation Tests</li>
+      </ul>
+
+      <a class="hero__cta" href="#projects">프로젝트 보기 ↓</a>
+    </div>
+  </header>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section" id="about">
+    <div class="container">
+      <p class="section__eyebrow">ABOUT</p>
+      <h2 class="section__title">소개</h2>
+
+      <div class="about__grid">
+        <p class="about__body">
+          상용 게임 수준의 시스템 아키텍처를 직접 설계하고 구현하며 체득하는 것을 목표로 합니다.
+          Inventory, Equipment, Weapon, Damage, Niagara FX, 자동화 테스트까지 — TPS 한 회차에서
+          마주치는 시스템의 골격을 스스로 쌓아올리는 방식으로 학습합니다.
+        </p>
+        <p class="about__body">
+          Epic Games의 공식 샘플인 <strong>Lyra Starter Game</strong>의 설계 패턴을 참고하되,
+          단순 복제가 아닌 <em>패턴의 목적을 이해한 뒤 도메인에 맞게 재구성</em>하는 방향을 택하고 있습니다.
+        </p>
+
+        <ul class="about__principles">
+          <li>
+            <span class="about__principle-num">01</span>
+            <h3>확장성 · 데이터 드리븐</h3>
+            <p>Fragment / Definition · Instance 분리로 콘텐츠 추가 비용 최소화</p>
+          </li>
+          <li>
+            <span class="about__principle-num">02</span>
+            <h3>멀티플레이 권한 모델</h3>
+            <p>Server-authoritative · FastArraySerializer delta 복제</p>
+          </li>
+          <li>
+            <span class="about__principle-num">03</span>
+            <h3>테스트 가능성 · 유지보수</h3>
+            <p>Component 분리 + Delegate loose coupling · 자동화 테스트</p>
+          </li>
+          <li>
+            <span class="about__principle-num">04</span>
+            <h3>상용 아키텍처의 재해석</h3>
+            <p>Lyra 패턴을 도메인에 맞게 축소·재구성</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section class="section section--alt" id="projects">
+    <div class="container">
+      <p class="section__eyebrow">PROJECTS</p>
+      <h2 class="section__title">작업물</h2>
+
+      <!-- ========== SHIPPING PROJECTS (회사 작업물) ========== -->
+
+      <!-- Company Work Placeholder -->
+      <article class="project project--placeholder">
+        <div class="project__media project__media--muted">
+          <span class="project__media-label">
+            🔒 회사 작업물<br />
+            <small>사내 허가 확인 후 업로드 예정</small>
+          </span>
+        </div>
+
+        <div class="project__body">
+          <p class="project__badge">SHIPPING</p>
+          <div class="project__head">
+            <h3 class="project__title">{회사 프로젝트명}</h3>
+            <p class="project__subtitle">{출시 플랫폼 · 담당 기간}</p>
+          </div>
+
+          <p class="project__desc">
+            {담당한 시스템과 기여 내용을 2~3줄로 기술. 출시된 프로젝트의 공식 스크린샷과
+            본인이 담당한 파트를 명확히 구분해 표기합니다.}
+          </p>
+
+          <ul class="project__highlights">
+            <li><strong>담당 시스템</strong> · {예: 전투 / AI / UI / 네트워크}</li>
+            <li><strong>기술 스택</strong> · {엔진 · 언어 · 주요 미들웨어}</li>
+            <li><strong>주요 성과</strong> · {수치 혹은 구체적 기여}</li>
+          </ul>
+
+          <ul class="project__tags">
+            <li>{사용 기술}</li>
+            <li>{담당 파트}</li>
+          </ul>
+
+          <div class="project__links">
+            <span class="btn btn--disabled">준비 중</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- ========== PERSONAL PROJECTS (개인 프로젝트) ========== -->
+
+      <!-- Vrem Card -->
+      <article class="project">
+        <div class="project__media project__media--placeholder">
+          <span class="project__media-label">
+            대표 이미지/GIF 자리<br />
+            <small>(docs/media/demo_weapon_swap.gif 추후 교체)</small>
+          </span>
+        </div>
+
+        <div class="project__body">
+          <p class="project__badge project__badge--personal">PERSONAL</p>
+          <div class="project__head">
+            <h3 class="project__title">Vrem</h3>
+            <p class="project__subtitle">UE 5.7 · C++ 멀티플레이어 TPS 시스템 학습 프로젝트</p>
+          </div>
+
+          <p class="project__desc">
+            Inventory · Equipment · Weapon · Damage · Niagara FX · 자동화 테스트를 단일 코드베이스에
+            쌓아가며 상용 수준 아키텍처를 체득하는 개인 학습 프로젝트입니다.
+            서버 권위 모델과 <code>FFastArraySerializer</code> 기반 delta 복제, Fragment 패턴을 통한
+            데이터 드리븐 확장이 핵심 설계입니다.
+          </p>
+
+          <ul class="project__highlights">
+            <li><strong>6개 시스템</strong> · Inventory / Equipment / Weapon / Health / FX / Tests</li>
+            <li><strong>10건 자동화 테스트</strong> · Inventory 5 + Equipment 5 (복제 시뮬 포함)</li>
+            <li><strong>Lyra 패턴 재해석</strong> · GAS 전 단계의 권한 모델을 직접 구축</li>
+          </ul>
+
+          <ul class="project__tags">
+            <li>UE 5.7</li>
+            <li>C++20</li>
+            <li>FastArraySerializer</li>
+            <li>Niagara</li>
+            <li>Automation Tests</li>
+          </ul>
+
+          <div class="project__links">
+            <a class="btn btn--primary" href="https://github.com/gee03143/Vrem" target="_blank" rel="noopener">
+              GitHub Repository →
+            </a>
+            <a class="btn btn--ghost" href="https://gee03143.github.io/Vrem/" target="_blank" rel="noopener">
+              상세 문서 →
+            </a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section" id="contact">
+    <div class="container">
+      <p class="section__eyebrow">CONTACT</p>
+      <h2 class="section__title">연락처</h2>
+
+      <ul class="contact__list">
+        <li>
+          <span class="contact__key">GitHub</span>
+          <a class="contact__value" href="https://github.com/gee03143" target="_blank" rel="noopener">
+            github.com/gee03143
+          </a>
+        </li>
+        <li>
+          <span class="contact__key">Email</span>
+          <a class="contact__value" href="mailto:{이메일@example.com}">
+            {이메일@example.com}
+          </a>
+        </li>
+        <li>
+          <span class="contact__key">Blog</span>
+          <span class="contact__value contact__value--muted">{블로그 URL 플레이스홀더}</span>
+        </li>
+      </ul>
+
+      <p class="contact__footer">
+        피드백과 면접 문의 환영합니다.
+      </p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span>© 2026 gee03143</span>
+      <span>Built with HTML · CSS · Hosted on GitHub Pages</span>
+    </div>
+  </footer>
+
+</body>
+</html>
